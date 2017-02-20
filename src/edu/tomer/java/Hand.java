@@ -30,4 +30,9 @@ public class Hand {
 
         return sum;
     }
+
+    @Override
+    public String toString() {
+        return cards.toString();
+    }
 }
